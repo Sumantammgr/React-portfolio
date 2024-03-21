@@ -1,0 +1,94 @@
+
+.contact-container{
+    padding:4rem 0rem;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+form label{
+    margin-bottom: 0.5rem;
+    display: inline-block;
+}
+form input{
+    padding:5px;
+    outline: none;
+    border-radius:5px;
+    border: none;
+    border:1px solid gray;
+    margin-bottom: 0.5rem;
+    max-width: 400px;
+    width:300px;
+    cursor:pointer;
+}
+form textarea{
+    max-width: 400px;
+    width:300px;
+    border-radius: 5px;
+    margin-bottom:0.5rem;
+    cursor:pointer;
+}
+form input[type="checkbox"]{
+    display: inline;
+    width:20px;
+}
+.submit-btn{
+    margin-top: 0.5rem;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.submit-btn button{
+    padding:10px 20px;
+    cursor: pointer;
+    border: none;
+    outline:none;
+    background-color: blueviolet;
+    border-radius: 5px;
+    color:#fff;
+}
+.submit-btn button:hover{
+    background:rgb(116, 18, 207);
+}
+/* media query */
+.container{
+    max-width:1536px;
+    margin-left:auto;
+    margin-right:auto;
+    padding-left:0.5rem;
+    padding-right:0.5rem;
+}
+
+@media(max-width:1536px){
+    .container{
+        max-width: 1280px;
+    }
+}
+@media(max-width:1280px){
+    .container{
+        max-width: 1024px;
+    }
+}
+@media(max-width:1024px){
+    .container{
+        max-width: 768px;
+    }
+}
+@media(max-width:768px){
+    .container{
+        max-width: 640px;
+    }
+}
+@media(max-width:640px){
+    .container{
+        max-width: 475px;
+    }
+}
+@media(max-width:475px){
+    .container{
+     width: 100%;
+    }
+    .form input{
+        max-width:200px;
+    }
+}
